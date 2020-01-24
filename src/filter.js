@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Filter = props => (
     <header className="filter">
         <nav className="filterNav">

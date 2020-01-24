@@ -14,7 +14,6 @@ class BurgerButton extends React.Component {
         const d = document.querySelector('.sideDrawerNav');
         const l = document.querySelectorAll('.sideDrawerNav li')
         const b = document.querySelector('.burgerButton')
-        console.log(b);
         d.classList.toggle('SD');
         b.classList.toggle('tLine');
         l.forEach((link, index) => {
