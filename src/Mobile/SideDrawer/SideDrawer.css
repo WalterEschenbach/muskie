@@ -48,10 +48,12 @@
     }
     .sideDrawerNav {
         transform: translateX(100%);
+        
     }
     .SD {
         transform: translateX(0%);
         transition: 1s;
+        overflow-y: initial;
     }
     @keyframes SDfade {
         from{

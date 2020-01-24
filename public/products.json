@@ -2,7 +2,80 @@
 "products" : [
     {
         "name" : "Rapala",
-        "type" : "spinner"
+        "type" : "Lure",
+        "price" : 5.99,
+        "image" : "./pub-img/rapala.jpg",
+        "description" : "Original Floating Minnow"
+    },
+    {
+        "name" : "Mepps",
+        "type" : "Lure",
+        "price" : 4.99,
+        "image" : "./pub-img/mepps.jpg",
+        "description" : "Musky Killer Spinner Bait"
+    },
+    {
+        "name" : "Crankbait",
+        "type" : "Lure",
+        "price" : 8.99,
+        "image" : "./pub-img/crankbait.jpg",
+        "description" : "Chaos Custom Trolling Bait"
+    },
+    {
+        "name" : "AbuGarcia",
+        "type" : "Reel",
+        "price" : 120.95,
+        "image" : "./pub-img/abu.png",
+        "description" : "Beast Casting Reel"
+    },
+    {
+        "name" : "Shimano",
+        "type" : "Reel",
+        "price" : 90.95,
+        "image" : "./pub-img/shimano.jpg",
+        "description" : "Magnesium Core Solid Reel"
+    },
+    {
+        "name" : "Ambassadeur",
+        "type" : "Reel",
+        "price" : 135.95,
+        "image" : "./pub-img/ambassadeur.jpg",
+        "description" : "Beast Casting Reel"
+    },
+    {
+        "name" : "Compre",
+        "type" : "Rod",
+        "price" : 150.00,
+        "image" : "./pub-img/compre.jpg",
+        "description" : "Compre Spinning Rod"
+    },
+    {
+        "name" : "StCroix",
+        "type" : "Rod",
+        "price" : 210.99,
+        "image" : "./pub-img/stcroix.jpg",
+        "description" : "Legendary Spinning Rod"
+    },
+    {
+        "name" : "Drifter",
+        "type" : "Rod",
+        "price" : 132.95,
+        "image" : "./pub-img/drifter.jpg",
+        "description" : "Drifter Spinning Rod"
+    },
+    {
+        "name" : "Flashlight",
+        "type" : "Gear",
+        "price" : 51.00,
+        "image" : "./pub-img/flashlight.jpg",
+        "description" : "Night Lighter"
+    },
+    {
+        "name" : "Trapper Hat",
+        "type" : "Gear",
+        "price" : 36.99,
+        "image" : "./pub-img/hat.jpg",
+        "description" : "Beaver Top"
     }
 ]
 }

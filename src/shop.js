@@ -9,14 +9,25 @@ fetch("http://localhost:8000/products/")
 
 
 
+// const shopSetup = () => {
+// let shopContainer = document.createElement('UL');
+//     for(let i=0; i < 10 ; i++) {
+//         log(i);
+//         shopContainer.appendChild('<li className="hello"></li>');
+//     };
+// }
+
+
+// shopSetup();
+
 
 export class Shop extends React.Component {
 
+    
     render() {
         return(
-            <div className="shopContainer">
-                <div><h6>SHOP</h6></div>
-            </div>
+            //<shopSetup />
+            <div className="shopContainer"></div>
         )
     }
 }
