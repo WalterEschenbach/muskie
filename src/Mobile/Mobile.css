@@ -1,12 +1,13 @@
+/* formatting for tablet and mobile devices */
+
 @media only screen and (max-width: 1024px){
     *{
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
       }
-      h2 {
-        text-align: right;
-      }
+
+      /* updated nav container at the top of the page for tablets and mobile. */
       .navContainer {
         width: 100%;
         height: 9vh;
@@ -44,6 +45,8 @@
         flex-grow: 1;
         margin: auto;
     }
+
+    /* container for the main content in the center of the page */
       .mainContainer {
         width: 100%;
         height: 100vh;
@@ -54,9 +57,13 @@
         position: relative; 
         
       }
+
+      /* filter removed for mobile and tablet versions */
       .filterNav {
         display: none;
       }
+
+      /* div that displays the products that are taken from the JSON file on the local server */
       .shopContainer {
         width: 100%;
         height: 100vh;
@@ -74,6 +81,7 @@
         z-index: -1;
       }
       
+      /* div for all of the information at the very bottom of the page */
       .footContainer {
         width: 100%;
         height: 10vh;
@@ -83,4 +91,15 @@
         flex-wrap: wrap;
         position: absolute;
       }
+}
+
+/* side drawer for navigating the site via tablet and mobile */
+@media only screen and (min-width: 1025px) {
+  .sideDrawerNav {
+    display: none;
+  }
+  .burgerButton {
+    display: none;
+
+  }
 }

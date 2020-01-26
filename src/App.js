@@ -18,14 +18,6 @@ class App extends React.Component {
   state = {sideDrawerOpen: false};
 
 
-
-
-
-
-
-
-
-
   render() {
     return(
       <div>
