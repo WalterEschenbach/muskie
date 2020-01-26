@@ -3,9 +3,6 @@ import Products from './products';
 import './products.css';
 import './App.css';
 
-let log = console.log;
-
-log(5);
 export class Shop extends React.Component {
 
     constructor(props) {
@@ -25,7 +22,7 @@ export class Shop extends React.Component {
 
     render() {
         return(
-            <div className="shopContainer">
+            <div id="shopContainer">
                 <Products products={this.state.filteredProducts} handleAddToCart={this.handleAddToCart} />
             </div>
         )
