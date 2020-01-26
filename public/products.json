@@ -5,77 +5,88 @@
         "type" : "Lure",
         "price" : 5.99,
         "image" : "./pub-img/rapala.jpg",
-        "description" : "Original Floating Minnow"
+        "description" : "Original Floating Minnow",
+        "id" : 0
     },
     {
         "name" : "Mepps",
         "type" : "Lure",
         "price" : 4.99,
         "image" : "./pub-img/mepps.jpg",
-        "description" : "Musky Killer Spinner Bait"
+        "description" : "Musky Killer Spinner Bait",
+        "id" : 1
     },
     {
         "name" : "Crankbait",
         "type" : "Lure",
         "price" : 8.99,
         "image" : "./pub-img/crankbait.jpg",
-        "description" : "Chaos Custom Trolling Bait"
+        "description" : "Chaos Custom Trolling Bait",
+        "id" : 2
     },
     {
         "name" : "AbuGarcia",
         "type" : "Reel",
         "price" : 120.95,
         "image" : "./pub-img/abu.png",
-        "description" : "Beast Casting Reel"
+        "description" : "Beast Casting Reel",
+        "id" : 3
     },
     {
         "name" : "Shimano",
         "type" : "Reel",
         "price" : 90.95,
         "image" : "./pub-img/shimano.jpg",
-        "description" : "Magnesium Core Solid Reel"
+        "description" : "Magnesium Core Solid Reel",
+        "id" : 4
     },
     {
         "name" : "Ambassadeur",
         "type" : "Reel",
         "price" : 135.95,
         "image" : "./pub-img/ambassadeur.jpg",
-        "description" : "Beast Casting Reel"
+        "description" : "Beast Casting Reel",
+        "id" : 5
     },
     {
         "name" : "Compre",
         "type" : "Rod",
         "price" : 150.00,
         "image" : "./pub-img/compre.jpg",
-        "description" : "Compre Spinning Rod"
+        "description" : "Compre Spinning Rod",
+        "id" : 6
     },
     {
         "name" : "StCroix",
         "type" : "Rod",
         "price" : 210.99,
         "image" : "./pub-img/stcroix.jpg",
-        "description" : "Legendary Spinning Rod"
+        "description" : "Legendary Spinning Rod",
+        "id" : 7
     },
     {
         "name" : "Drifter",
         "type" : "Rod",
         "price" : 132.95,
         "image" : "./pub-img/drifter.jpg",
-        "description" : "Drifter Spinning Rod"
+        "description" : "Drifter Spinning Rod",
+        "id" : 8
     },
     {
         "name" : "Flashlight",
         "type" : "Gear",
         "price" : 51.00,
         "image" : "./pub-img/flashlight.jpg",
-        "description" : "Night Lighter"
+        "description" : "Night Lighter",
+        "id" : 9
     },
     {
         "name" : "Trapper Hat",
         "type" : "Gear",
         "price" : 36.99,
         "image" : "./pub-img/hat.jpg",
-        "description" : "Beaver Top"
+        "description" : "Beaver Top",
+        "id" : 10
     }
 ]
 }

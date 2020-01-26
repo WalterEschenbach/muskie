@@ -1,0 +1,12 @@
+.product-container {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbnail img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid turquoise;
+}

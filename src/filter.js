@@ -5,10 +5,10 @@ const Filter = props => (
         <nav className="filterNav">
             <div className="filterContainer">
                 <ul>
-                    <li><a href='#'>Reels</a></li>
-                    <li><a href='#'>Rods</a></li>
-                    <li><a href='#'>Lures</a></li>
-                    <li><a href='#'>Gear</a></li>
+                    <li><button>Reels</button></li>
+                    <li><button>Rods</button></li>
+                    <li><button>Lures</button></li>
+                    <li><button>Gear</button></li>
                 </ul>
             </div>
         </nav>

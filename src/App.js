@@ -7,6 +7,7 @@ import './App.css';
 import './Mobile/SideDrawer/SideDrawer.css';
 import './Mobile/Mobile.css';
 import './Mobile/SideDrawer/BurgerButton.css';
+import './products.css';
 import {NavBar} from './nav';
 import {DesktopFilter} from './filter';
 import {Shop} from './shop';

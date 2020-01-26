@@ -7,11 +7,11 @@ import './BurgerButton.css';
 const SideDrawer = props => (
         <nav className="sideDrawerNav">
             <ul>
-                <a href='#'><li>Reels</li></a>
-                <a href='#'><li>Rods</li></a>
-                <a href='#'><li>Lures</li></a>
-                <a href='#'><li>Tackle</li></a>
-                <a href='#'><li>Gear</li></a>
+                <button><li>Reels</li></button>
+                <button><li>Rods</li></button>
+                <button><li>Lures</li></button>
+                <button><li>Tackle</li></button>
+                <button><li>Gear</li></button>
             </ul>
         </nav>
 );

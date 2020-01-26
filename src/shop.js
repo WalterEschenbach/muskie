@@ -1,33 +1,33 @@
 import React from 'react';
+import Products from './products';
+import './products.css';
+import './App.css';
 
 let log = console.log;
 
-
-fetch("http://localhost:8000/products/")
-    .then(response => response.text())
-    .then(body => log(body));
-
-
-
-// const shopSetup = () => {
-// let shopContainer = document.createElement('UL');
-//     for(let i=0; i < 10 ; i++) {
-//         log(i);
-//         shopContainer.appendChild('<li className="hello"></li>');
-//     };
-// }
-
-
-// shopSetup();
-
-
+log(5);
 export class Shop extends React.Component {
 
-    
+    constructor(props) {
+        super(props);
+        this.state = {products:[], filteredProducts:[]};
+    }
+
+    componentDidMount(){
+    fetch("http://localhost:8000/products/")
+    //convert the results to json below
+    .then(response => response.json())
+    .then(data => this.setState({
+        products: data,
+        filteredProducts: data
+    }));
+    };
+
     render() {
         return(
-            //<shopSetup />
-            <div className="shopContainer"></div>
+            <div className="shopContainer">
+                <Products products={this.state.filteredProducts} handleAddToCart={this.handleAddToCart} />
+            </div>
         )
     }
 }
