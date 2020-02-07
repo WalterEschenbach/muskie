@@ -82,6 +82,7 @@
 .filterUl li button:hover {
   background-color: lightgrey;
   border: none;
+  text-decoration: none;
 }
 /* div that displays the products that are taken from the JSON file on the local server */
 #shopContainer {

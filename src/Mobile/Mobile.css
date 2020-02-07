@@ -1,96 +1,92 @@
 /* formatting for tablet and mobile devices */
 
-@media only screen and (max-width: 1024px){
-    *{
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-      }
+@media only screen and (max-width: 1024px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
 
-      /* updated nav container at the top of the page for tablets and mobile. */
-      .navContainer {
-        width: 100%;
-        height: 9vh;
-        border: 1px solid blue;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        position: fixed;
-      }
-      #logo {
-        display: none;
-   
-      }
-      #logo img {
-        width: 200px;
-      
-      }
-      #mainTitle {
-        display: flex;
-        flex-grow: 5;
-        border: 1px solid blue;
+  /* updated nav container at the top of the page for tablets and mobile. */
+  .navContainer {
+    width: 100%;
+    height: 9vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+  }
+  #logo {
+    display: none;
+  }
+  #logo img {
+    width: 200px;
+  }
+  #mainTitle {
+    display: flex;
+    flex-grow: 5;
+    border: 1px solid blue;
+  }
+  #search {
+    display: none;
+  }
+  #account {
+    display: none;
+  }
+  #cartIcon {
+    display: none;
+  }
+  .burgerButtonContainer {
+    border: 1px solid blue;
+    flex-grow: 1;
+    margin: auto;
+  }
 
-      }
-      #search {
-        display: none;
-      }
-      #account {
-        display: none;      
-      }
-      #cartIcon {
-          display: none;
-      }
-      .burgerButtonContainer {
-        border: 1px solid blue;
-        flex-grow: 1;
-        margin: auto;
-    }
+  /* container for the main content in the center of the page */
+  .mainContainer {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    top: 9vh;
+    position: relative;
+  }
 
-    /* container for the main content in the center of the page */
-      .mainContainer {
-        width: 100%;
-        height: 100vh;
-        border: 1px solid blue;
-        display: flex;
-        flex-direction: column;
-        top: 9vh;
-        position: relative; 
-        
-      }
+  /* filter removed for mobile and tablet versions */
+  .filterNav {
+    display: none;
+  }
 
-      /* filter removed for mobile and tablet versions */
-      .filterNav {
-        display: none;
-      }
+  /* div that displays the products that are taken from the JSON file on the local server */
+  .shopContainer {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./muskellunge.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.2;
+    top: 9vh;
+    z-index: -1;
+  }
 
-      /* div that displays the products that are taken from the JSON file on the local server */
-      .shopContainer {
-        width: 100%;
-        height: 100vh;
-        border: 1px solid blue;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-image: url(./muskellunge.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        background-attachment: fixed;
-        opacity: .2;
-        top: 9vh;
-        z-index: -1;
-      }
-      
-      /* div for all of the information at the very bottom of the page */
-      .footContainer {
-        width: 100%;
-        height: 10vh;
-        border: 1px solid blue;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: absolute;
-      }
+  /* div for all of the information at the very bottom of the page */
+  .footContainer {
+    width: 100%;
+    height: 10vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+  }
 }
 
 /* side drawer for navigating the site via tablet and mobile */
@@ -100,6 +96,5 @@
   }
   .burgerButton {
     display: none;
-
   }
 }

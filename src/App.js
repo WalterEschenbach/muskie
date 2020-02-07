@@ -22,10 +22,7 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        {/* JSX gets translated into JavaScript, and class is a reserved word in JavaScript. */}
-        <div className="mainContainer">
-          <Shop />
-        </div>
+        <Shop />
         <Foot />
       </div>
     );

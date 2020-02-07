@@ -31,6 +31,7 @@ export class Shop extends React.Component {
         newArray.push(product);
       }
     });
+
     this.setState({ products: newArray });
   }
 
