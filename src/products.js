@@ -7,7 +7,7 @@ export default class Products extends React.Component {
     const productItems = this.props.products.map(product => (
       <div className="thumbnail" key={product.id}>
         <img src={product.image} alt={product.title} aria-hidden="true" />
-        <p>{product.name}</p>
+        <p className="pName">{product.name}</p>
         <p>{product.description}</p>
         <button onClick={this.props.handleAddToCart}>Add to Cart</button>
       </div>
